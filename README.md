@@ -1,5 +1,10 @@
 # 产品思维技能使用指南
 
+[![GitHub Stars](https://img.shields.io/github/stars/ssdiwu/product-thinking?style=social)](https://github.com/ssdiwu/product-thinking/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ssdiwu/product-thinking?style=social)](https://github.com/ssdiwu/product-thinking/network/members)
+[![GitHub License](https://img.shields.io/github/license/ssdiwu/product-thinking)](https://github.com/ssdiwu/product-thinking/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/ssdiwu/product-thinking)](https://github.com/ssdiwu/product-thinking/issues)
+
 > 让 AI 成为你的产品顾问，将创意想法转化为可执行的产品策略
 
 ---
