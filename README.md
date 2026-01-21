@@ -5,23 +5,32 @@
 [![GitHub License](https://img.shields.io/github/license/ssdiwu/product-thinking)](https://github.com/ssdiwu/product-thinking/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/ssdiwu/product-thinking)](https://github.com/ssdiwu/product-thinking/issues)
 
+---
+
 > 让 AI 成为你的产品顾问，将创意想法转化为可执行的产品策略
 
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/8776f85d-fd00-457f-8dae-177cc6897d94" />
+
+
 ---
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/20bc8fc8-76e1-47cb-870f-aefa43283c94" />
 
 ## 核心特色
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/af42673e-6825-49a0-8cd1-a834614e3a2f" />
 
 - 📊 **视觉化输出**：使用 Mermaid 图表（流程图/状态图/时序图/思维导图）让分析更直观
 - ✅ **三步确认法**：框架共识 → 逐个工具单点确认 → 终稿生成，确保方向一致
 - 🛠️ **七大思维工具**：JTBD、逆向思维、减法思维、故事思维、灵魂三问、场景应用、问题发现
 
+
+
 ---
 
 ## 这个技能是什么？
 
-**产品思维顾问**是一个帮助你的产品想法落地、或诊断已有产品问题的 AI 助手。
 <img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/864c45b9-6045-4189-98fd-12f4d96ea3ac" />
+
+**产品思维顾问**是一个帮助你的产品想法落地、或诊断已有产品问题的 AI 助手。
 通过七大思维工具进行系统性分析，输出可执行的产品策略文档。
 
 **核心能力**：
@@ -34,6 +43,8 @@
 ---
 
 ## 它能解决什么问题？
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/22731f7c-b733-4bc8-9a5c-53b2f2fdaeef" />
 
 ### 新产品/创意阶段
 
@@ -57,8 +68,9 @@
 ---
 
 ## 如何使用？
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/2dfd6fda-44fa-4b7b-9998-baca3eb08639" />
 ### 快速开始（3 分钟体验）
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/87821fe8-3a4b-46f6-9ab7-c3469abd1782" />
 
 **第一步：说出你的想法或问题**
 
@@ -93,6 +105,8 @@ AI 会输出结构化的分析文档，包含：
 ---
 
 ### 深度分析（完整体验）
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/193edf41-a131-4a3f-9e18-6cbc61742303" />
 
 AI 会根据你的需求，选择合适的分析工具：
 
@@ -306,25 +320,12 @@ A: 取决于分析深度：
 
 这个技能包含七大思维工具，覆盖产品分析的全流程：
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                   七大思维工具框架                       │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │
-│  │ 灵魂三问 │──│ JTBD    │  │ 逆向思维 │  │ MVP     │   │
-│  │ (快速)  │  │ (用户)  │  │ (风险)  │  │ (聚焦)  │   │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │
-│                                                         │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐                │
-│  │ 故事思维 │──│ 场景应用│  │ 问题发现│                │
-│  │ (共情)  │  │ (落地)  │  │ (验证)  │                │
-│  └─────────┘  └─────────┘  └─────────┘                │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/0772ed91-6db8-4058-becb-663d4bf5d750" />
 
 ### 工具之间的协作
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/2d29e034-7d56-42a7-bd44-ec9b1dfa6aec" />
+
 
 ```
 灵魂三问（快速判断）
@@ -360,5 +361,3 @@ A: 取决于分析深度：
 
 - [prd-doc-writer](https://github.com/yunshu0909/yunshu_skillshub/tree/master/prd-doc-writer) - PRD 文档梳理技能，提供了视觉化输出和分阶段确认的灵感
 - [req-change-workflow](https://github.com/yunshu0909/yunshu_skillshub/tree/master/req-change-workflow) - 需求变更工作流技能，提供了门控流程和风险评估的思路
-
-感谢云舒老师对 AI 技能生态的贡献！🙏
