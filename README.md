@@ -10,7 +10,7 @@
 ---
 
 ## 核心特色
-
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/20bc8fc8-76e1-47cb-870f-aefa43283c94" />
 - 📊 **视觉化输出**：使用 Mermaid 图表（流程图/状态图/时序图/思维导图）让分析更直观
 - ✅ **三步确认法**：框架共识 → 逐个工具单点确认 → 终稿生成，确保方向一致
 - 🛠️ **七大思维工具**：JTBD、逆向思维、减法思维、故事思维、灵魂三问、场景应用、问题发现
@@ -20,7 +20,7 @@
 ## 这个技能是什么？
 
 **产品思维顾问**是一个帮助你的产品想法落地、或诊断已有产品问题的 AI 助手。
-
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/864c45b9-6045-4189-98fd-12f4d96ea3ac" />
 通过七大思维工具进行系统性分析，输出可执行的产品策略文档。
 
 **核心能力**：
@@ -56,7 +56,7 @@
 ---
 
 ## 如何使用？
-
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/2dfd6fda-44fa-4b7b-9998-baca3eb08639" />
 ### 快速开始（3 分钟体验）
 
 **第一步：说出你的想法或问题**
