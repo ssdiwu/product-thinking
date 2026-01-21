@@ -8,9 +8,10 @@
 > 让 AI 成为你的产品顾问，将创意想法转化为可执行的产品策略
 
 ---
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/20bc8fc8-76e1-47cb-870f-aefa43283c94" />
 
 ## 核心特色
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/20bc8fc8-76e1-47cb-870f-aefa43283c94" />
+
 - 📊 **视觉化输出**：使用 Mermaid 图表（流程图/状态图/时序图/思维导图）让分析更直观
 - ✅ **三步确认法**：框架共识 → 逐个工具单点确认 → 终稿生成，确保方向一致
 - 🛠️ **七大思维工具**：JTBD、逆向思维、减法思维、故事思维、灵魂三问、场景应用、问题发现
