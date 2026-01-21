@@ -9,6 +9,14 @@
 
 ---
 
+## 核心特色
+
+- 📊 **视觉化输出**：使用 Mermaid 图表（流程图/状态图/时序图/思维导图）让分析更直观
+- ✅ **三步确认法**：框架共识 → 逐个工具单点确认 → 终稿生成，确保方向一致
+- 🛠️ **七大思维工具**：JTBD、逆向思维、减法思维、故事思维、灵魂三问、场景应用、问题发现
+
+---
+
 ## 这个技能是什么？
 
 **产品思维顾问**是一个帮助你的产品想法落地、或诊断已有产品问题的 AI 助手。
@@ -342,3 +350,14 @@ A: 取决于分析深度：
 ---
 
 *产品思维技能 - 让每一个想法都经得起推敲*
+
+---
+
+## 致谢
+
+本技能的**可视化图表思路**和**三步确认法流程**参考并借鉴了 [云舒老师 (yunshu0909)](https://github.com/yunshu0909) 的优秀技能设计：
+
+- [prd-doc-writer](https://github.com/yunshu0909/yunshu_skillshub/tree/master/prd-doc-writer) - PRD 文档梳理技能，提供了视觉化输出和分阶段确认的灵感
+- [req-change-workflow](https://github.com/yunshu0909/yunshu_skillshub/tree/master/req-change-workflow) - 需求变更工作流技能，提供了门控流程和风险评估的思路
+
+感谢云舒老师对 AI 技能生态的贡献！🙏

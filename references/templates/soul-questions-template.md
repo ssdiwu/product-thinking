@@ -2,6 +2,44 @@
 
 ## 灵魂三问（快速评估）
 
+### 三问关系图
+
+```mermaid
+flowchart LR
+    subgraph Q1[Q1: 谁是用户？]
+        A1[真实用户]
+        A2[具体场景]
+    end
+
+    subgraph Q2[Q2: 痛点是什么？]
+        B1[当前方案]
+        B2[真实痛点]
+    end
+
+    subgraph Q3[Q3: 为什么选择你？]
+        C1[独特资源]
+        C2[竞争优势]
+    end
+
+    Q1 -->|验证| Q2
+    Q2 -->|验证| Q3
+
+    Q1 --> D{价值验证}
+    Q2 --> D
+    Q3 --> D
+
+    D -->|通过| E[✅ 值得深入]
+    D -->|未通过| F[❌ 需要调整]
+
+    style Q1 fill:#e3f2fd
+    style Q2 fill:#fff3e0
+    style Q3 fill:#e8f5e9
+    style E fill:#c8e6c9
+    style F fill:#ffcdd2
+```
+
+---
+
 ### 1. 谁是用户？
 
 **用户画像**：
@@ -42,11 +80,48 @@
 
 **社会层任务**：
 
+**用户旅程流程图**：
+
+```mermaid
+flowchart LR
+    A[问题发现] --> B[寻找方案]
+    B --> C[比较选择]
+    C --> D[尝试使用]
+    D --> E[价值确认]
+    E --> F[持续使用]
+
+    style A fill:#e1f5fe
+    style D fill:#fff3e0
+    style E fill:#e8f5e9
+```
+
 ---
 
 ### 事前验尸（逆向思维）
 
 **假设6个月后产品失败了，可能的原因**：
+
+**风险分析树**：
+
+```mermaid
+flowchart TD
+    A[产品失败] --> B[用户层面]
+    A --> C[产品层面]
+    A --> D[市场层面]
+
+    B --> B1[问题不存在]
+    B --> B2[解决方案无效]
+
+    C --> C1[功能过度复杂]
+    C --> C2[性能不稳定]
+
+    D --> D1[竞品压力]
+    D --> D2[需求变化]
+
+    style A fill:#ffcdd2
+    style B1 fill:#ffebee
+    style C1 fill:#ffebee
+```
 
 | 风险类别 | 失败原因 | 预防措施 |
 |----------|----------|----------|
@@ -71,6 +146,25 @@
 **砍掉的功能（后续迭代）**：
 -
 
+**功能筛选流程图**：
+
+```mermaid
+flowchart TD
+    A[列出所有功能] --> B{验证核心假设?}
+    B -->|是| C[核心功能]
+    B -->|否| D{可延迟?}
+    D -->|是| E[延后功能]
+    D -->|否| F[舍弃功能]
+
+    C --> G{最小实现?}
+    G -->|是| H[MVP 核心]
+
+    style C fill:#c8e6c9
+    style H fill:#b2dfdb
+    style E fill:#fff9c4
+    style F fill:#ffcdd2
+```
+
 ---
 
 ### 用户画像（故事思维）
@@ -86,6 +180,27 @@
 ---
 
 ### 用户旅程
+
+**用户旅程流程图**：
+
+```mermaid
+flowchart LR
+    A[认知] --> B[考虑]
+    B --> C[决策]
+    C --> D[使用]
+    D --> E[推荐]
+
+    A -->|用户心理| A1[发现痛点]
+    B -->|用户心理| B1[评估方案]
+    C -->|用户心理| C1[选择焦虑]
+    D -->|用户心理| D1[学习适应]
+    E -->|用户心理| E1[满意分享]
+
+    style A fill:#e1f5fe
+    style C fill:#fff3e0
+    style D fill:#e8f5e9
+    style E fill:#f3e5f5
+```
 
 | 阶段 | 用户心理 | 用户行为 | 痛点 | 机会 |
 |------|----------|----------|------|------|

@@ -78,6 +78,122 @@
    低                    高
 ```
 
+## 可视化示例
+
+### 功能筛选决策流程图
+
+展示如何从"所有功能"筛选出"MVP 核心功能"：
+
+```mermaid
+flowchart TD
+    A[列出所有功能] --> B{验证核心假设?}
+    B -->|是| C[核心功能]
+    B -->|否| D{可延迟?}
+    D -->|是| E[延后功能]
+    D -->|否| F[舍弃功能]
+
+    C --> G{最小实现?}
+    G -->|是| H[MVP 核心]
+    G -->|否| I[简化方案]
+
+    H --> J[验证指标设计]
+    I --> J
+
+    E --> K[后续迭代考虑]
+    F --> L[不做]
+
+    style C fill:#c8e6c9
+    style H fill:#b2dfdb
+    style E fill:#fff9c4
+    style F fill:#ffcdd2
+```
+
+### 功能分层思维导图
+
+可视化展示功能的不同优先级层次：
+
+```mermaid
+mindmap
+  root((功能清单))
+    MVP 核心
+      验证主假设
+        不可或缺
+        无法替代
+      完整用户路径
+        从开始到结束
+        可用不完美
+    次要功能
+      增强体验
+        提升效率
+        减少 friction
+      可有可无
+        锦上添花
+        不影响核心
+    备选功能
+      未来考虑
+        需求验证后
+        资源充足时
+    舍弃功能
+      伪需求
+        自嗨功能
+        用户不需要
+      过度设计
+        不必要的复杂
+```
+
+### MVP 迭代路线图
+
+展示从 MVP 到完整产品的演进路径：
+
+```mermaid
+gantt
+    title MVP 迭代路线图
+    dateFormat YYYY-MM-DD
+    section MVP 阶段
+    核心假设定义       :done, m1, 2024-01-01, 3d
+    功能筛选           :done, m2, after m1, 2d
+    MVP 开发           :active, m3, after m2, 10d
+    假设验证           :m4, after m3, 7d
+    section 迭代阶段
+    数据分析           :m5, after m4, 3d
+    功能优先级排序     :m6, after m5, 2d
+    v1.1 开发          :m7, after m6, 10d
+```
+
+### MVP 类型对比图
+
+不同类型 MVP 的适用场景和特点：
+
+```mermaid
+flowchart LR
+    A[MVP 类型选择] --> B{验证目标}
+    B -->|需求是否存在| C[验证型 MVP]
+    B -->|方案是否可行| D[功能型 MVP]
+    B -->|商业模式是否成立| E[商业型 MVP]
+
+    C --> C1[纸面原型]
+    C --> C2[Landing Page]
+    C --> C3[手动验证]
+
+    D --> D1[简化工具]
+    D --> D2[向导式流程]
+    D --> D3[受限功能集]
+
+    E --> E1[付费测试]
+    E --> E2[预售]
+    E --> E3[免费试用转付费]
+
+    style C fill:#e1f5fe
+    style D fill:#fff3e0
+    style E fill:#e8f5e9
+```
+
+**使用建议**：
+- 功能筛选决策流程图：用于 MVP 功能规划会议
+- 功能分层思维导图：用于头脑风暴和功能分类
+- MVP 迭代路线图：用于产品规划展示
+- MVP 类型对比图：用于选择合适的 MVP 策略
+
 ## MVP 类型
 
 | 类型 | 定义 | 案例 | 周期 |
