@@ -4,6 +4,7 @@ description: >
   产品思维顾问技能 - 帮助用户将创意想法转化为结构化的产品构建策略,或诊断已有产品的问题并提供优化方向。
   运用七大思维工具(JTBD、逆向思维、减法思维、故事思维、灵魂三问、场景应用、问题发现)进行系统性分析。
   采用 5 阶段渐进式工作流,支持多执行模式(multi-agent/codex-assisted/sequential/plan-only),每个阶段生成独立文档,支持状态恢复。
+  也可通过 /product-thinking、/product-design 直接调用。
 ---
 
 # 产品思维顾问 Skill
